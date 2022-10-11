@@ -1,16 +1,58 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  --body: #1b1b1b;
+  --heaven: #ffffff;
+  --purple: #682ae9;
+  --light: #dbdbdb;
+  --header-link: #dbdbdb;
+  --header-link-hover: #682ae9;
+  --header-link-hover-icon: #dbdbdb;
+  --header-link-active: #555;
+  --std-color: #dbdbdb;
+  --bg: #313131;
+  --bg-rgb: 14, 18, 18;
+  --bgLight: radial-gradient(var(--bg), transparent, var(--purple) 130%);
+  --gray: grey;
+  --comment: #555;
+}
+
+body {
+  background: var(--body);
+  color: var(--header-link-hover-icon);
+}
+
+section {
+  height: calc(100vh - 70px);
+  margin-top: 70px;
+}
+
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+::-webkit-scrollbar-track {
+  width: 10px;
+  background: var(--body);
+  border-left: .3px solid var(--comment);
+  border-right: .3px solid var(--comment);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  width: 0;
+  height: 35%;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
