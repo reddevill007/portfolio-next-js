@@ -31,8 +31,13 @@ body {
   color: var(--header-link-hover-icon);
 }
 
+/* nProgress bar color change */
+#nprogress .bar {
+  background: var(--purple) !important;
+}
+
 section {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   margin-top: 70px;
 }
 

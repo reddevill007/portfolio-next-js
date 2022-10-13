@@ -1,6 +1,4 @@
-import Navbar from "../components/Navbar";
 import Home from "../components/Home";
-import Footer from "../components/Footer";
 
 const index = () => {
   return (
@@ -8,7 +6,6 @@ const index = () => {
       <section>
         <Home />
       </section>
-      <Footer />
     </>
   );
 };
