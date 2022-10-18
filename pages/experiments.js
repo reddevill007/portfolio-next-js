@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar";
 import ProjectBox from "../components/ProjectBox";
+import Header from "../components/Header";
 
 const experiments = () => {
   return (
     <section>
-      <h1>Experiment</h1>
+      <Header title="Experiments" />
       <ProjectBox />
     </section>
   );
