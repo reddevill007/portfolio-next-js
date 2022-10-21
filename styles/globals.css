@@ -41,6 +41,10 @@ body {
   margin-bottom: 40px;
 }
 
+section {
+  padding-top: 80px;
+}
+
 /* nProgress bar color change */
 #nprogress .bar {
   background: var(--purple) !important;

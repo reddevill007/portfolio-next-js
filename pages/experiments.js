@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const experiments = () => {
   return (
     <section>
-      <Header title="Experiments" />
+      <Header title="experiments" />
       <ProjectBox />
     </section>
   );
