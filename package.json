@@ -1,24 +1,22 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.3.1",
-    "next-nprogress": "^1.4.0",
-    "nprogress": "^0.2.0",
+    "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "styled-components": "^5.3.6"
+    "react-icons": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1"
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
   }
 }
