@@ -94,7 +94,7 @@ const Showoff = () => {
                 </div>
 
                 <div className="relative flex gap-4 pt-6 w-[95%] mx-auto">
-                    <div className='absolute w-full h-full bg-gradient-to-b from-transparent to-gray-900 top-0 left-0 z-10'></div>
+                    <div className='absolute w-full h-full bg-gradient-to-b from-transparent to-gray-900 dark:to-white top-0 left-0 z-10'></div>
 
                     <div className='w-4/12 flex flex-col gap-y-4'>
                         <nav className="isolate w-full inline-flex mx-auto -space-x-px rounded-md shadow-sm" aria-label="Pagination">
@@ -107,7 +107,7 @@ const Showoff = () => {
                             <span aria-current="page" className="relative z-10 inline-flex items-center border border-grays-500 bg-purple-800 px-4 py-2 text-sm font-medium text-gray-600 focus:z-20">1</span>
                             <span className="relative inline-flex items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20">2</span>
                             <span className="relative hidden items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 md:inline-flex">3</span>
-                            <span className="relative inline-flex items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-700">...</span>
+                            <span className="relative inline-flex items-center border border-gray-300 bg-gray-800 px-7 py-2 text-sm font-medium text-gray-700">...</span>
                             <span className="relative hidden items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 md:inline-flex">8</span>
                             <span className="relative inline-flex items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20">9</span>
                             <span className="relative inline-flex items-center border border-gray-300 bg-gray-800 px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20">10</span>
