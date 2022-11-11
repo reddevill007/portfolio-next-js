@@ -4,7 +4,7 @@ import { links } from '../assets/links'
 const Navlinks = () => {
     return (
         <div>
-            <div className='w-[100%] bg-gray-900 flex text-white flex-col justify-around items-center text-4xl h-[calc(100vh_-_64px)] md:w-[50%] md:h-[100vh]' >
+            <div className='w-[100%] bg-gray-900 flex text-gray-400 flex-col justify-around items-center text-4xl h-[calc(100vh_-_64px)] md:w-[50%] md:h-[100vh]' >
                 {links.map((link) => (
                     <div key={link.id}>
                         {
